@@ -20,6 +20,10 @@ public class RandomNum {
 				JOptionPane.showMessageDialog(null, "Lower");
 			}
 			num = JOptionPane.showInputDialog("Guess what number I am thinking of");
+			n = Integer.parseInt(num);
+			if(n == x){
+				JOptionPane.showMessageDialog(null, "Correct!");
+			}
 		}
 	}
 }
